@@ -1,0 +1,15 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
+
+  application:
+    name: SERVICE-REGISTRY
+
+server:
+  port: 8761
+
